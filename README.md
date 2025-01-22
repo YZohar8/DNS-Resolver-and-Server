@@ -22,9 +22,8 @@ Simple DNS-like service implementation with domain name to IP resolution, simila
 
 ### 1. Clone Project
 ```bash
-git clone 
-# Example:
-python server.py 55555 zone.txt
+git clone https://github.com/YZohar8/DNS-Resolver-and-Server.git
+cd DNS-Resolver-and-Server
 ```
 
 ### 2. Primary Server
