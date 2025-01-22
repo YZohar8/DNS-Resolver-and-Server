@@ -20,21 +20,28 @@ Simple DNS-like service implementation with domain name to IP resolution, simila
 
 ## 🚀 How to Run
 
-### 1. Primary Server
+### 1. Clone Project
+```bash
+git clone 
+# Example:
+python server.py 55555 zone.txt
+```
+
+### 2. Primary Server
 ```bash
 python server.py [port] [zoneFile]
 # Example:
 python server.py 55555 zone.txt
 ```
 
-### 2. Resolver Server
+### 3. Resolver Server
 ```bash
 python resolver.py [port] [parentIP] [parentPort] [x]
 # Example:
 python resolver.py 12345 127.0.0.1 55555 60
 ```
 
-### 3. Client
+### 4. Client
 ```bash
 python client.py [serverIP] [serverPort]
 # Example:
